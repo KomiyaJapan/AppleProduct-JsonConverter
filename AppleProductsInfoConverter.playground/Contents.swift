@@ -16,7 +16,7 @@ struct Output:Codable{
     }
 }
 let storageList = ["1GB","2GB","4GB","8GB","16GB","32GB","64GB","128GB","256GB","512GB","1TB","2TB","4TB","8TB","16TB","32TB"]
-let url = URL(string: "https://www.apple.com/jp/shop/product-locator-meta?family=iphone13pro")!  //ここにURLを貼る
+let url = URL(string: "https://www.apple.com/jp/shop/product-locator-meta?family=iphone13")!  //ここにURLを貼る
 var request = URLRequest(url: url)
 let task = URLSession.shared.dataTask(with: request) { (data, response, error) in
     guard let data = data else { return }
