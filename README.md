@@ -1,0 +1,2 @@
+# AppleProduct-JsonConverter
+指定されたApple製品の製品情報をJSON化します
